@@ -17,7 +17,7 @@ app = FastAPI(
 
 # Request Data Model
 class IntentRequest(BaseModel):
-    text: str = Field(..., min_length=3, example="Need pricing and demo")
+    text: str = Field(..., min_length=3, json_schema_extra={"example": "Need pricing and demo"})
 
 # Response Data Model
 class IntentResponse(BaseModel):

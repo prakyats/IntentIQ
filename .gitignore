@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+demo_results.txt
+demo_output.txt

@@ -71,10 +71,11 @@ def train_model(data_path: str, model_save_path: str, vectorizer_save_path: str,
     print("Training complete.")
 
 if __name__ == "__main__":
-    # Define paths relative to model/ directory
-    DATA_PATH = os.path.join("..", "data", "dataset.csv")
-    MODEL_FILE = "model_v1.pkl"
-    VECTORIZER_FILE = "vectorizer_v1.pkl"
-    PLOT_FILE = "confusion_matrix.png"
+    # Define paths relative to this script's directory
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DATA_PATH = os.path.join(BASE_DIR, "..", "data", "dataset.csv")
+    MODEL_FILE = os.path.join(BASE_DIR, "model_v1.pkl")
+    VECTORIZER_FILE = os.path.join(BASE_DIR, "vectorizer_v1.pkl")
+    PLOT_FILE = os.path.join(BASE_DIR, "confusion_matrix.png")
     
     train_model(DATA_PATH, MODEL_FILE, VECTORIZER_FILE, PLOT_FILE)
