@@ -24,34 +24,41 @@ class IntentResponse(BaseModel):
     intent: str
     confidence: float
     probabilities: dict
+    warning_if_low_confidence: bool = False
 
-@app.post("/predict-intent", response_model=IntentResponse)
+@app.post("/predict-intent")
 async def predict_endpoint(request: IntentRequest):
     """
     Classify input text based on customer interaction notes into:
-    High Intent, Medium Intent, Low Intent, Inquiry, Complaint.
+    High Intent, Medium Intent, Low Intent, Inquiry, Complaint, or Uncertain.
     """
     try:
+        # Input validation & strip
+        text = str(request.text).strip()
+        if not text:
+            raise ValueError("Input text cannot be empty.")
+            
         # Logging for prediction
-        print(f"[PREDICT] Request Input: '{request.text}'")
+        print(f"[PREDICT] Request Input: '{text}'")
         
         # Core prediction logic
-        result = predict_intent(request.text)
+        result = predict_intent(text)
         
         # Log prediction result
         print(f"[RESULT] Intent: {result['intent']} | Confidence: {result['confidence']:.4f}")
         
-        return IntentResponse(
-            intent=result['intent'],
-            confidence=result['confidence'],
-            probabilities=result['probabilities']
-        )
-    except FileNotFoundError as e:
-        print(f"[ERROR] Model or vectorizer not found: {e}")
-        raise HTTPException(status_code=500, detail="Intent model not found. Please ensure the model is trained.")
+        return {
+            "intent": result['intent'],
+            "confidence": result['confidence'],
+            "probabilities": result['probabilities'],
+            "warning_if_low_confidence": result.get('warning_if_low_confidence', False)
+        }
     except Exception as e:
-        print(f"[ERROR] Unexpected error: {e}")
-        raise HTTPException(status_code=500, detail="Internal server error during prediction.")
+        print(f"[ERROR] Prediction failed: {e}")
+        return {
+            "error": "Prediction failed",
+            "details": str(e)
+        }
 
 @app.get("/")
 async def root():

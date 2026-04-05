@@ -3,8 +3,8 @@ import string
 
 def clean_text(text: str) -> str:
     """
-    Cleans the input text by converting to lowercase, removing special characters,
-    and removing extra spaces.
+    Cleans the input text by converting to lowercase, removing generic special characters,
+    and removing extra spaces. Preserves keywords by using a surgical punctuation removal.
     """
     if not text:
         return ""
@@ -12,11 +12,9 @@ def clean_text(text: str) -> str:
     # Convert to lowercase
     text = text.lower()
     
-    # Remove special characters (punctuation)
-    text = re.sub(f"[{re.escape(string.punctuation)}]", " ", text)
-    
-    # Remove digits (optional, but often helpful for intent)
-    text = re.sub(r"\d+", " ", text)
+    # Remove punctuation but keep alphanumeric and spaces
+    # This preserves keywords like "price", "demo", "error" without special char interference
+    text = re.sub(r'[^a-zA-Z\s]', ' ', text)
     
     # Remove extra spaces and leading/trailing whitespace
     text = re.sub(r"\s+", " ", text).strip()

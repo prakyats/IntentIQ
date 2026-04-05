@@ -1,349 +1,627 @@
 text,intent
-"Need pricing details urgently",High Intent
-"Can you show a demo tomorrow?",High Intent
-"Ready to sign the contract",High Intent
-"We want to start immediately",High Intent
-"How much for 50 users?",High Intent
-"Send me the invoice link",High Intent
-"Budget approved, let's go",High Intent
-"Want to buy the enterprise plan",High Intent
-"Need a quote for our team",High Intent
-"Call me to finalize the deal",High Intent
-"Highly interested in the premium tier",High Intent
-"When can we onboard?",High Intent
-"Urgent request for pricing sheet",High Intent
-"Ready for a trial run starting now",High Intent
-"Interested in moving forward quickly",High Intent
-"Can we discuss bulk pricing today?",High Intent
-"We need this solution by next week",High Intent
-"Is there a discount for annual billing?",High Intent
-"Send me the signup link please",High Intent
-"Looking to switch from competitor ASAP",High Intent
-"We have a budget and need this now",High Intent
-"Want to upgrade my current account",High Intent
-"Help me set up the payment method",High Intent
-"Definitely buying this",High Intent
-"Let's schedule the final walkthrough",High Intent
-"Send over the paperwork",High Intent
-"We are ready to commit",High Intent
-"Need to close this deal by Friday",High Intent
-"Sign me up for the gold plan",High Intent
-"How soon can we start using it?",High Intent
-"Requesting a custom quote for our org",High Intent
-"Where do I pay?",High Intent
-"Want to start the pilot project",High Intent
-"Ready to pull the trigger on this",High Intent
-"Looking for the checkout page",High Intent
-"Need pricing and demo",High Intent
-"Can I buy multiple licenses now?",High Intent
-"Interested in the full feature set",High Intent
-"Let's talk about implementation",High Intent
-"I want to subscribe to your service",High Intent
-"Need a formal proposal please",High Intent
-"Is there a way to pay via bank transfer?",High Intent
-"We need 100 seats by Monday",High Intent
-"Ready to go live with your system",High Intent
-"Will decide later",Medium Intent
-"Checking with my manager first",Medium Intent
-"Need to compare with other tools",Medium Intent
-"Follow up with me next month",Medium Intent
-"Still evaluating our options",Medium Intent
-"Not sure if we have the budget yet",Medium Intent
-"Looks good but need to wait",Medium Intent
-"Can you email me the info for later?",Medium Intent
-"We are seeing if this fits our workflow",Medium Intent
-"Maybe in Q3",Medium Intent
-"I'll get back to you after the huddle",Medium Intent
-"Talking to the IT team about this",Medium Intent
-"Could be a good fit later this year",Medium Intent
-"Send me a whitepaper for review",Medium Intent
-"We are interested but not right now",Medium Intent
-"Let's stay in touch",Medium Intent
-"I need to see if we can migrate data",Medium Intent
-"Wait for our new funding round",Medium Intent
-"Potential interest but low priority",Medium Intent
-"Just starting our research phase",Medium Intent
-"Reviewing the case studies you sent",Medium Intent
-"Will let you know by end of month",Medium Intent
-"Need to run this by the CEO",Medium Intent
-"Exploring if this is what we need",Medium Intent
-"Might be interested in a few months",Medium Intent
-"Keep me on your newsletter list",Medium Intent
-"Sounds interesting but no immediate need",Medium Intent
-"We are currently using another tool",Medium Intent
-"Not exactly what I was looking for but maybe?",Medium Intent
-"Waiting for our current contract to end",Medium Intent
-"Need to see the ROI first",Medium Intent
-"Can you reach out in 60 days?",Medium Intent
-"We are in the middle of a merger",Medium Intent
-"Testing your competitors' demos too",Medium Intent
-"Is there a smaller version of this?",Medium Intent
-"Just wanted to see what you offer",Medium Intent
-"Let's reconnect in the fall",Medium Intent
-"I'll discuss it with the team",Medium Intent
-"Not a priority for this quarter",Medium Intent
-"Exploring options",Low Intent
-"Just looking around",Low Intent
-"Not interested at this time",Low Intent
-"Price is way too high for us",Low Intent
-"No budget for software this year",Low Intent
-"We already have a solution",Low Intent
-"Unsubscribe from this email list",Low Intent
-"Don't call me again",Low Intent
-"Wrong person, talk to someone else",Low Intent
-"Maybe next year, but don't hold your breath",Low Intent
-"Just curious, no intent to buy",Low Intent
-"Too complex for our needs",Low Intent
-"Not what we are looking for",Low Intent
-"Stop sending me messages",Low Intent
-"Not a good fit for us",Low Intent
-"Leaving the company soon",Low Intent
-"Mistakenly clicked the link",Low Intent
-"We are too small for this",Low Intent
-"We don't need help with this",Low Intent
-"I'm just a student researching",Low Intent
-"Checking out your UI for inspiration",Low Intent
-"Our current process is fine",Low Intent
-"Don't have time for a demo",Low Intent
-"No interest whatsoever",Low Intent
-"Please remove me from your records",Low Intent
-"We use spreadsheets and it's fine",Low Intent
-"Only interested if it was free",Low Intent
-"Not relevant to my department",Low Intent
-"Busy with other things right now",Low Intent
-"Your product doesn't solve my problem",Low Intent
-"Not a fan of the interface",Low Intent
-"I don't make the decisions here",Low Intent
-"Just browsing",Low Intent
-"We are closing down soon",Low Intent
-"Looking for a different type of tool",Low Intent
-"Already satisfied with our current app",Low Intent
-"Don't bother me",Low Intent
-"No need for automation yet",Low Intent
-"What features do you offer?",Inquiry
-"Does it integrate with Salesforce?",Inquiry
-"How do you handle security?",Inquiry
-"Is there a mobile app?",Inquiry
-"Can I export data to Excel?",Inquiry
-"What is your uptime guarantee?",Inquiry
-"Do you offer 24/7 support?",Inquiry
-"How does the API work?",Inquiry
-"Is there a free trial period?",Inquiry
-"Can I see a list of integrations?",Inquiry
-"What languages are supported?",Inquiry
-"How many users can I add?",Inquiry
-"Is there a limit on storage?",Inquiry
-"How do I reset my password?",Inquiry
-"Where are your servers located?",Inquiry
-"Do you have a SOC2 report?",Inquiry
-"What's the difference between plans?",Inquiry
-"Does it work with Outlook?",Inquiry
-"Can I get a demo login?",Inquiry
-"Are there any hidden fees?",Inquiry
-"How long does implementation take?",Inquiry
-"Can I invite guests to the project?",Inquiry
-"Do you have a dark mode?",Inquiry
-"How do I delete my account?",Inquiry
-"What is your refund policy?",Inquiry
-"Do you have a developer portal?",Inquiry
-"Can I automate workflows?",Inquiry
-"How secure is our data with you?",Inquiry
-"Are there training videos available?",Inquiry
-"Can we customize the dashboard?",Inquiry
-"Is there a community forum?",Inquiry
-"How do I contact sales?",Inquiry
-"Where can I find the API docs?",Inquiry
-"Do you support single sign-on (SSO)?",Inquiry
-"Can I get a nonprofit discount?",Inquiry
-"What is the maximum file size?",Inquiry
-"Is there a way to create templates?",Inquiry
-"Does it support 2FA?",Inquiry
-"How often do you push updates?",Inquiry
-"Can I use this offline?",Inquiry
-"System is down, cannot log in",Complaint
-"Your support is way too slow",Complaint
-"The dashboard keeps crashing",Complaint
-"Bug in the reporting module",Complaint
-"Why is the price so high?",Complaint
-"I've been waiting for a reply for days",Complaint
-"This is not what I expected",Complaint
-"Too many bugs, I want a refund",Complaint
-"The new update broke everything",Complaint
-"Support was very unhelpful today",Complaint
-"Page loading times are terrible",Complaint
-"Cannot find the feature you promised",Complaint
-"Your billing system charged me twice",Complaint
-"Integration with Slack is failing",Complaint
-"Mobile app is very laggy",Complaint
-"Notification settings are broken",Complaint
-"I'm frustrated with the complex UI",Complaint
-"Your documentation is outdated",Complaint
-"Why did my account get locked?",Complaint
-"Cannot upload files, getting an error",Complaint
-"The search function doesn't work",Complaint
-"Poor customer service experience",Complaint
-"This tool is useless for me",Complaint
-"It keeps logging me out randomly",Complaint
-"The data export is missing columns",Complaint
-"Why is there no phone support?",Complaint
-"Your sales team is too pushy",Complaint
-"The permissions system is confusing",Complaint
-"I found a security vulnerability",Complaint
-"The AI suggestions are garbage",Complaint
-"Interface is ugly and hard to use",Complaint
-"Subscription was supposed to be canceled",Complaint
-"Error 500 when saving projects",Complaint
-"Spamming my inbox too much",Complaint
-"My team hates this software",Complaint
-"Lost all my settings after the update",Complaint
-"The sync feature is unreliable",Complaint
-"Broken links in the help center",Complaint
-"Terms of service are too restrictive",Complaint
-"Facing issue during login",Complaint
-"wanna know pricing details ASAP",High Intent
-"not sure yet maybe later",Medium Intent
-"just curious no plan to buy",Low Intent
-"facing issues with login help",Inquiry
-"system is slow today fix it",Complaint
-"Need pricing for 10 users",High Intent
-"Can we talk about a demo?",High Intent
-"Thinking about our options",Medium Intent
-"Not interested, unsubscribe",Low Intent
-"How secure is the platform?",Inquiry
-"Bug in payment processing",Complaint
-"Can you show a demo?",High Intent
-"We are looking into this tech",Medium Intent
-"Just exploring, no budget",Low Intent
-"What integrations do you have?",Inquiry
-"Dashboard is frozen again",Complaint
-"Send the quote urgently",High Intent
-"Checking with the board",Medium Intent
-"Wrong email, delete me",Low Intent
-"Is there a trial?",Inquiry
-"Charged me for wrong plan",Complaint
-"I'm ready to buy",High Intent
-"Maybe after the holidays",Medium Intent
-"Not a fan, no thanks",Low Intent
-"How do I add users?",Inquiry
-"Mobile app crashes on startup",Complaint
-"Let's do the demo tomorrow",High Intent
-"Still comparing with other tools",Medium Intent
-"No intent to purchase",Low Intent
-"Does it work with GSuite?",Inquiry
-"Support ignored my ticket",Complaint
-"Pricing for enterprise please",High Intent
-"Reviewing internally",Medium Intent
-"Too expensive, bye",Low Intent
-"API documentation link?",Inquiry
-"Cannot save changes",Complaint
-"Ready to sign",High Intent
-"Will let you know",Medium Intent
-"Not interested",Low Intent
-"Security whitepaper?",Inquiry
-"Slow response time",Complaint
-"Start my trial now",High Intent
-"Waiting for approval",Medium Intent
-"Don't call me",Low Intent
-"How much data?",Inquiry
-"Login failed again",Complaint
-"Sign me up!",High Intent
-"Still undecided",Medium Intent
-"Not looking for this",Low Intent
-"Feature request: Dark mode",Inquiry
-"Interface is confusing",Complaint
-"Need pricing details urgently",High Intent
-"Just exploring options",Low Intent
-"Can you show demo?",High Intent
-"Having issues with your product",Complaint
-"What features do you offer?",Inquiry
-"Will decide later",Medium Intent
-"Ready for the demo",High Intent
-"Maybe in a few months",Medium Intent
-"Not for us",Low Intent
-"Does it have an API?",Inquiry
-"Support is terrible",Complaint
-"Let's start the pilot",High Intent
-"Comparing quotes",Medium Intent
-"No budget",Low Intent
-"Is data encrypted?",Inquiry
-"App is down",Complaint
-"I want the pro plan",High Intent
-"Talking to my boss",Medium Intent
-"Stop emailing me",Low Intent
-"Where is the login?",Inquiry
-"Bug discovered",Complaint
-"Send invoice",High Intent
-"Reviewing options",Medium Intent
-"Unsubscribe",Low Intent
-"Training videos?",Inquiry
-"UI is too slow",Complaint
-"Closed the deal",High Intent
-"Checking back later",Medium Intent
-"Wrong direction",Low Intent
-"Uptime stats?",Inquiry
-"Broken link on site",Complaint
-"Add 20 seats",High Intent
-"Evaluating competitors",Medium Intent
-"Not a fit",Low Intent
-"Refund policy?",Inquiry
-"Double charged",Complaint
-"Urgent demo request",High Intent
-"Waiting on Finance",Medium Intent
-"Not interested in CRM",Low Intent
-"Slack integration?",Inquiry
-"Crash during export",Complaint
-"How to pay?",High Intent
-"Discussing with team",Medium Intent
-"No money",Low Intent
-"Mobile app available?",Inquiry
-"Support is slow",Complaint
-"Ready to onboard",High Intent
-"Think about it",Medium Intent
-"Maybe next year",Low Intent
-"Security review?",Inquiry
-"Dashboard bug",Complaint
-"Upgrade my plan",High Intent
-"Compare with Salesforce",Medium Intent
-"Not interested, stop",Low Intent
-"Login issues",Complaint
-"Help with setup",Inquiry
-"Pricing info please",High Intent
-"Maybe next quarter",Medium Intent
-"No interest",Low Intent
-"How to delete account?",Inquiry
-"Sync failed",Complaint
-"Demo was great, want to buy",High Intent
-"Decision next week",Medium Intent
-"Too complex for me",Low Intent
-"What is the cost?",Inquiry
-"Password reset not working",Complaint
-"Contract is signed",High Intent
-"Still in review",Medium Intent
-"Not interested, thanks",Low Intent
-"Support hours?",Inquiry
-"Reporting is broken",Complaint
-"Highly interested",High Intent
-"Checking other tools",Medium Intent
-"No thanks",Low Intent
-"Demo account?",Inquiry
-"System error 404",Complaint
-"Sign the contract",High Intent
-"Probably not now",Medium Intent
-"Not a good time",Low Intent
-"Features list?",Inquiry
-"Interface bug",Complaint
-"Ready for launch",High Intent
-"Looking at it",Medium Intent
-"No budget left",Low Intent
-"API key location?",Inquiry
-"Refund request",Complaint
-"Pilot start",High Intent
-"Discussing internally",Medium Intent
-"Not interested yet",Low Intent
-"Integration list?",Inquiry
-"Crashing on mobile",Complaint
-"Ready to buy now",High Intent
-"Maybe later",Medium Intent
-"No interest in this",Low Intent
-"How do I start?",Inquiry
-"Slow performance",Complaint
+hey do you provide a dedicated customer success manager!,Inquiry
+quick question: can i set granular permissions for different roles,Inquiry
+update: need some time to think it over thanks,Medium Intent
+update: we're interested but timing is bad rn,Medium Intent
+so what happens when we reach our api limit...,Inquiry
+update: why am i getting error 403 on a public endpoint asap,Complaint
+note: send over the order form please,High Intent
+wanna test it out,Medium Intent
+quick question: i have been waiting on hold for hours.,Complaint
+"hi, can we finalize the agreement today thanks",High Intent
+quick question: putting this on pause for a month please,Medium Intent
+when is support available?,Inquiry
+"champion left the company, deal on hold",Low Intent
+my card was charged incorrectly,Complaint
+quick question: the analytics dashboard is completely inaccurate thanks,Complaint
+nah,Low Intent
+need pricing but not urgent,Medium Intent
+"hi, we are happy with our current setup asap",Low Intent
+update: how long is the implementation timeline usually,Inquiry
+"hello, looks decent but we aren't ready yet asap",Medium Intent
+quick question: we selected you as our vendor thanks,High Intent
+"hello, let's get started on onboarding!",High Intent
+"checking options, not sure yet",Medium Intent
+pre-sales ques: does this integrate natively with salesforce,Inquiry
+quick question: what languages does the platform support.,Inquiry
+"hello, we want to move forward with the enterprise plan please",High Intent
+"hello, putting this on pause for a month asap",Medium Intent
+update: why am i getting error 403 on a public endpoint,Complaint
+pre-sales ques: what happens when we reach our api limit,Inquiry
+fyi: checking with it for security clearance rn,Medium Intent
+quick question: not a priority right now rn,Low Intent
+"hi, waiting for budget approval!",Medium Intent
+so send the msa for legal review asap asap,High Intent
+quick question: can i set granular permissions for different roles rn,Inquiry
+quick question: can we finalize the agreement today asap,High Intent
+note: i have been waiting on hold for hours please,Complaint
+hey we build this internally so no need rn,Low Intent
+support ticket: the documentation is severely out of date and useless,Complaint
+fyi: ready to sign off on the proposal...,High Intent
+sync with client: still in the evaluation phase,Medium Intent
+"hi, we went with another solution rn",Low Intent
+"love the features, hate the UI, will consider",Medium Intent
+need pricing and a demo immediately,High Intent
+closed lost: we don't have the budget for this,Low Intent
+"hi, wrong person, try someone else please",Low Intent
+quick question: we are comparing you with a few others please,Medium Intent
+putting this on pause for a month rn,Medium Intent
+fyi: what happens when we reach our api limit,Inquiry
+u guys have an api or what,Inquiry
+fyi: we are too small to need this rn,Low Intent
+so extremely slow loading times in the eu region!,Complaint
+"hi, we're interested but timing is bad rn",Medium Intent
+"demo was okay, we will think about it",Medium Intent
+hey can you put me on an email cadence for updates?!,Medium Intent
+quick question: the documentation is severely out of date and useless thanks,Complaint
+"hello, we are too small to need this asap",Low Intent
+note: let's get started on onboarding!,High Intent
+pre-sales ques: is it possible to white-label the dashboard,Inquiry
+note: we are comparing you with a few others rn,Medium Intent
+need support to upgrade my plan to enterprise,High Intent
+"hi, why am i getting error 403 on a public endpoint.",Complaint
+quick question: do you offer 24/7 technical support asap,Inquiry
+fyi: urgent need to implement this week...,High Intent
+sync with client: we are comparing you with a few others,Medium Intent
+"lead called in, we selected you as our vendor",High Intent
+fyi: unsubscribe immediately please thanks,Low Intent
+inbound lead looking for basic integration docs,Inquiry
+note: ready to proceed with the purchase thanks,High Intent
+fyi: the user interface is incredibly non-intuitive...,Complaint
+fyi: let's touch base in a few weeks asap,Medium Intent
+we are comparing you with a few others please,Medium Intent
+"highly interested, send contract",High Intent
+app kinda buggy but ok for now,Medium Intent
+update: need licenses for my team immediately,High Intent
+fyi: billing department messed up my invoice again please,Complaint
+fyi: we're interested but timing is bad rn,Medium Intent
+"lead called in, we want to move forward with the enterprise plan",High Intent
+idk maybe later bro,Low Intent
+"hi, what languages does the platform support.",Inquiry
+so i have been waiting on hold for hours asap,Complaint
+so not interested at all thanks,Low Intent
+"lead unresponsive after 5 follow ups, closing out",Low Intent
+quick question: can i set granular permissions for different roles...,Inquiry
+your recent update deleted my saved filters.,Complaint
+quick question: following up next quarter might be better rn,Medium Intent
+sync with client: checking with it for security clearance,Medium Intent
+so do you guys have a compliance page i can check asap,Inquiry
+fyi: your sales rep was extremely rude on the phone!,Complaint
+send over the order form.,High Intent
+update: not interested at all...,Low Intent
+fyi: still in the evaluation phase,Medium Intent
+"hello, don't ever call this number again",Low Intent
+I was interested until support was rude to me,Complaint
+so don't ever call this number again...,Low Intent
+Whatever.,Low Intent
+hey we're interested but timing is bad...,Medium Intent
+quick question: still in the evaluation phase rn,Medium Intent
+update: still in the evaluation phase asap,Medium Intent
+how exactly does the machine learning work asap,Inquiry
+fyi: i need to present this to the board first asap,Medium Intent
+hey following up next quarter might be better!,Medium Intent
+hey your recent update deleted my saved filters,Complaint
+don't ever call this number again please,Low Intent
+update: checking with it for security clearance please,Medium Intent
+update: let's touch base in a few weeks!,Medium Intent
+pls send invoice rn,High Intent
+"hi, not interested at all!",Low Intent
+hey where do i wire the funds asap,High Intent
+"hey wrong person, try someone else...",Low Intent
+"hello, looks decent but we aren't ready yet",Medium Intent
+"customer filed a feature request, not happy it's missing",Complaint
+"hello, need licenses for my team immediately please",High Intent
+price?,Inquiry
+so don't ever call this number again,Low Intent
+"lead called in, send over the order form",High Intent
+fyi: where do i wire the funds.,High Intent
+"lead called in, send the msa for legal review asap",High Intent
+"hi, not a priority right now",Low Intent
+note: your sales rep was extremely rude on the phone thanks,Complaint
+update: can you put me on an email cadence for updates?,Medium Intent
+quick question: we want to move forward with the enterprise plan asap,High Intent
+note: we build this internally so no need rn,Low Intent
+quick question: waiting for budget approval,Medium Intent
+closed lost: not interested at all,Low Intent
+"hi, send over the order form thanks",High Intent
+how long is the implementation timeline usually asap,Inquiry
+"hi, how exactly does the machine learning work...",Inquiry
+client asked for pricing during call,High Intent
+We are a 5 person team.,Inquiry
+update: we want to move forward with the enterprise plan,High Intent
+note: how long is the implementation timeline usually.,Inquiry
+so do you guys have a compliance page i can check thanks,Inquiry
+"hello, your recent update deleted my saved filters rn",Complaint
+"hello, your sales rep was extremely rude on the phone please",Complaint
+fyi: do you provide a dedicated customer success manager please,Inquiry
+fyi: we build this internally so no need rn,Low Intent
+update: do you guys have a compliance page i can check...,Inquiry
+support ticket: your sales rep was extremely rude on the phone,Complaint
+fyi: looks decent but we aren't ready yet,Medium Intent
+note: your sales rep was extremely rude on the phone.,Complaint
+"hello, need licenses for my team immediately...",High Intent
+sync with client: waiting for budget approval,Medium Intent
+"terrible experience with sales, but the product works so we'll buy",High Intent
+help,Inquiry
+note: why am i getting error 403 on a public endpoint!,Complaint
+lead wants a demo but not sure yet,Medium Intent
+can I get a recorded demo link?,Inquiry
+we build this internally so no need...,Low Intent
+so still in the evaluation phase rn,Medium Intent
+so billing department messed up my invoice again,Complaint
+"hi, we selected you as our vendor!",High Intent
+need pricing and demo asap,High Intent
+note: your recent update deleted my saved filters please,Complaint
+so not a priority right now!,Low Intent
+this software is literally garbage ngl,Complaint
+"client experienced error during pilot, evaluating",Medium Intent
+"hello, your recent update deleted my saved filters!",Complaint
+fyi: we are happy with our current setup rn,Low Intent
+note: let's get started on onboarding thanks,High Intent
+update: what languages does the platform support please,Inquiry
+i am just a student doing a project asap,Low Intent
+so we're interested but timing is bad thanks,Medium Intent
+quick question: we selected you as our vendor,High Intent
+quick question: does this integrate natively with salesforce please,Inquiry
+quick question: mobile application crashes every time i open it thanks,Complaint
+note: urgent need to implement this week asap,High Intent
+need to schedule a demo immediately,High Intent
+hey do you guys have a compliance page i can check rn,Inquiry
+"hi, following up next quarter might be better...",Medium Intent
+note: how long is the implementation timeline usually...,Inquiry
+support ticket: i have been waiting on hold for hours,Complaint
+still in the evaluation phase asap,Medium Intent
+dashboard is crashing,Complaint
+fyi: let's touch base in a few weeks...,Medium Intent
+note: we don't have the budget for this please,Low Intent
+"hey wrong person, try someone else please",Low Intent
+"hello, is it possible to white-label the dashboard rn",Inquiry
+"hi, the analytics dashboard is completely inaccurate!",Complaint
+quick question: need some time to think it over!,Medium Intent
+note: i want a full refund for this month's downtime please,Complaint
+too expensive for our small shop please,Low Intent
+fyi: urgent need to implement this week thanks,High Intent
+buy,High Intent
+"password reset email never arrives, fix this",Complaint
+we are happy with our current setup.,Low Intent
+prcing plz,High Intent
+lead requested demo for next tuesday,Medium Intent
+"hey wrong person, try someone else!",Low Intent
+hey we are comparing you with a few others...,Medium Intent
+login not working again,Complaint
+so the documentation is severely out of date and useless!,Complaint
+send the msa for legal review asap thanks,High Intent
+quick question: does this integrate natively with salesforce!,Inquiry
+fyi: do you provide a dedicated customer success manager asap,Inquiry
+support was helpful but we chose another tool,Low Intent
+pricing details please,High Intent
+pre-sales ques: what languages does the platform support,Inquiry
+"hello, we build this internally so no need...",Low Intent
+"hi, we are happy with our current setup!",Low Intent
+note: too expensive for our small shop please,Low Intent
+hey is it possible to white-label the dashboard,Inquiry
+"lead called in, process payment for the annual tier",High Intent
+is there a known error with active directory sync?,Inquiry
+"hello, do you provide a dedicated customer success manager!",Inquiry
+note: we want to move forward with the enterprise plan rn,High Intent
+where is the billing portal?,Inquiry
+where do i wire the funds please,High Intent
+update: can you put me on an email cadence for updates? please,Medium Intent
+"hello, not interested at all!",Low Intent
+how do I report a non-critical bug?,Inquiry
+"hello, how long is the implementation timeline usually...",Inquiry
+update: we went with another solution thanks,Low Intent
+fyi: where do i wire the funds!,High Intent
+hey is it possible to white-label the dashboard...,Inquiry
+update: we don't have the budget for this,Low Intent
+quick question: extremely slow loading times in the eu region asap,Complaint
+note: the user interface is incredibly non-intuitive asap,Complaint
+note: need to discuss internally with stakeholders thanks,Medium Intent
+note: putting this on pause for a month thanks,Medium Intent
+we are too small to need this please,Low Intent
+quick question: do you offer 24/7 technical support,Inquiry
+update: we want to move forward with the enterprise plan asap,High Intent
+"POC successful, procurement is reviewing MSA",High Intent
+looks decent but we aren't ready yet asap,Medium Intent
+"not sure yet, need to think",Medium Intent
+what are the rate limits on the API?,Inquiry
+fyi: need to discuss internally with stakeholders!,Medium Intent
+note: does this integrate natively with salesforce!,Inquiry
+so we selected you as our vendor,High Intent
+quick question: too expensive for our small shop!,Low Intent
+quick question: where do i wire the funds,High Intent
+pre-sales ques: how exactly does the machine learning work,Inquiry
+hey the documentation is severely out of date and useless.,Complaint
+sync with client: can you put me on an email cadence for updates?,Medium Intent
+"hi, we are too small to need this!",Low Intent
+note: do you provide a dedicated customer success manager thanks,Inquiry
+what is your pricing model?,Inquiry
+fyi: can we export data as a csv or json,Inquiry
+note: does this integrate natively with salesforce,Inquiry
+fyi: don't ever call this number again rn,Low Intent
+"hello, still in the evaluation phase.",Medium Intent
+note: need some time to think it over...,Medium Intent
+update: why am i getting error 403 on a public endpoint!,Complaint
+dmeo,Inquiry
+hey is there a limit to how many users we can add,Inquiry
+update: what happens when we reach our api limit!,Inquiry
+fyi: not interested at all.,Low Intent
+so does this integrate natively with salesforce.,Inquiry
+"hi, looks decent but we aren't ready yet rn",Medium Intent
+note: let's touch base in a few weeks!,Medium Intent
+so let's kick off the project!,High Intent
+so need licenses for my team immediately!,High Intent
+support ticket: the user interface is incredibly non-intuitive,Complaint
+so the documentation is severely out of date and useless...,Complaint
+"hi, we want to move forward with the enterprise plan...",High Intent
+update: don't ever call this number again asap,Low Intent
+so not interested at all,Low Intent
+support ticket: i want a full refund for this month's downtime,Complaint
+so lost all my work because the auto-save failed rn,Complaint
+your sales rep was extremely rude on the phone rn,Complaint
+note: we selected you as our vendor!,High Intent
+"this bug is unacceptable, cancelling my account",Complaint
+"hi, let's kick off the project",High Intent
+"closed lost: wrong person, try someone else",Low Intent
+quick question: the analytics dashboard is completely inaccurate asap,Complaint
+interested but budget is an issue,Medium Intent
+hey why am i getting error 403 on a public endpoint rn,Complaint
+fyi: do you provide a dedicated customer success manager rn,Inquiry
+hey your sales rep was extremely rude on the phone,Complaint
+fyi: i am just a student doing a project.,Low Intent
+hey we are comparing you with a few others,Medium Intent
+update: i am just a student doing a project.,Low Intent
+process payment for the annual tier rn,High Intent
+quick question: we selected you as our vendor asap,High Intent
+hey do you guys have a compliance page i can check...,Inquiry
+so ready to proceed with the purchase asap,High Intent
+send over the order form asap,High Intent
+"customer furious about ongoing downtime, churn risk",Complaint
+"hi, not a priority right now...",Low Intent
+"hello, let's touch base in a few weeks rn",Medium Intent
+update: let's touch base in a few weeks...,Medium Intent
+found a bug but I still want to buy,High Intent
+so mobile application crashes every time i open it thanks,Complaint
+hey putting this on pause for a month!,Medium Intent
+note: we are happy with our current setup!,Low Intent
+sync with client: let's touch base in a few weeks,Medium Intent
+fyi: we want to move forward with the enterprise plan,High Intent
+quick question: do you guys have a compliance page i can check rn,Inquiry
+hey mobile application crashes every time i open it asap,Complaint
+update: lost all my work because the auto-save failed.,Complaint
+"API keeps aggressively rate limiting me, dropping requests",Complaint
+fyi: we selected you as our vendor.,High Intent
+quick question: billing department messed up my invoice again,Complaint
+so don't ever call this number again please,Low Intent
+hey please remove me from your list...,Low Intent
+your sales rep was extremely rude on the phone please,Complaint
+pricing is way beyond our budget right now,Low Intent
+"looks amazing, no budget till 2025",Medium Intent
+"hi, we are too small to need this please",Low Intent
+note: how exactly does the machine learning work please,Inquiry
+hey do you offer 24/7 technical support rn,Inquiry
+how long is the typical demo?,Inquiry
+let's talk next week,Medium Intent
+closed lost: i am just a student doing a project,Low Intent
+note: your recent update deleted my saved filters...,Complaint
+just checking pricing not buying yet,Inquiry
+hey i am just a student doing a project thanks,Low Intent
+"hello, too expensive for our small shop rn",Low Intent
+"hi, how exactly does the machine learning work thanks",Inquiry
+quick question: the user interface is incredibly non-intuitive...,Complaint
+"hi, do you provide a dedicated customer success manager please",Inquiry
+update: we are too small to need this...,Low Intent
+"hello, need to discuss internally with stakeholders",Medium Intent
+not interested at all,Low Intent
+"hi, is there a limit to how many users we can add thanks",Inquiry
+note: i need to present this to the board first asap,Medium Intent
+lead discussing internally with finance,Medium Intent
+"hi, checking with it for security clearance asap",Medium Intent
+this looks good but maybe later,Medium Intent
+quick question: let's get started on onboarding thanks,High Intent
+looks decent but we aren't ready yet...,Medium Intent
+sync with client: we're interested but timing is bad,Medium Intent
+update: send over the order form asap,High Intent
+fyi: billing department messed up my invoice again,Complaint
+"hello, i have been waiting on hold for hours rn",Complaint
+we want to move forward with the enterprise plan,High Intent
+update: i have been waiting on hold for hours asap,Complaint
+not interested at all thanks,Low Intent
+closed lost: we went with another solution,Low Intent
+hey your recent update deleted my saved filters rn,Complaint
+client said maybe later,Medium Intent
+quick question: the analytics dashboard is completely inaccurate rn,Complaint
+hey where do i wire the funds!,High Intent
+quick question: not a priority right now thanks,Low Intent
+"hi, ready to proceed with the purchase please",High Intent
+we are happy with our current setup,Low Intent
+"hi, let's get started on onboarding rn",High Intent
+"hello, unsubscribe immediately please rn",Low Intent
+update: we selected you as our vendor rn,High Intent
+note: unsubscribe immediately please please,Low Intent
+your sales rep was extremely rude on the phone.,Complaint
+update: checking with it for security clearance thanks,Medium Intent
+we are too small to need this thanks,Low Intent
+note: what happens when we reach our api limit rn,Inquiry
+Send it over.,High Intent
+so why am i getting error 403 on a public endpoint...,Complaint
+broken,Complaint
+closed lost: unsubscribe immediately please,Low Intent
+closed lost: we build this internally so no need,Low Intent
+"hello, urgent need to implement this week asap",High Intent
+"hello, do you offer 24/7 technical support.",Inquiry
+update: what languages does the platform support thanks,Inquiry
+"lead called in, where do i wire the funds",High Intent
+"hi, putting this on pause for a month rn",Medium Intent
+hey we don't have the budget for this please,Low Intent
+"hi, is it possible to white-label the dashboard!",Inquiry
+can i set granular permissions for different roles!,Inquiry
+"hello, is there a limit to how many users we can add please",Inquiry
+send over the pricing tier list,Medium Intent
+hey how exactly does the machine learning work!,Inquiry
+need demo but not urgent,Medium Intent
+hey ready to sign off on the proposal please,High Intent
+quick question: we're interested but timing is bad.,Medium Intent
+note: not a priority right now.,Low Intent
+"hello, is it possible to white-label the dashboard!",Inquiry
+"wrong person, referred me to the CTO",Low Intent
+update: we selected you as our vendor please,High Intent
+so is it possible to white-label the dashboard!,Inquiry
+quick question: what languages does the platform support please,Inquiry
+hey what happens when we reach our api limit asap,Inquiry
+quick question: let's touch base in a few weeks...,Medium Intent
+note: extremely slow loading times in the eu region!,Complaint
+"hello, wrong person, try someone else...",Low Intent
+note: ready to sign off on the proposal rn,High Intent
+"hi, let's touch base in a few weeks rn",Medium Intent
+"hello, the analytics dashboard is completely inaccurate thanks",Complaint
+we don't have the budget for this rn,Low Intent
+fyi: your recent update deleted my saved filters asap,Complaint
+pricing is high so probably not,Low Intent
+fyi: do you provide a dedicated customer success manager.,Inquiry
+"update: wrong person, try someone else",Low Intent
+so let's get started on onboarding please,High Intent
+fyi: why am i getting error 403 on a public endpoint!,Complaint
+fyi: your recent update deleted my saved filters please,Complaint
+note: need licenses for my team immediately please,High Intent
+update: the user interface is incredibly non-intuitive rn,Complaint
+fyi: i have been waiting on hold for hours,Complaint
+send the msa for legal review asap please,High Intent
+"hi, can we export data as a csv or json rn",Inquiry
+"hi, we went with another solution.",Low Intent
+fyi: we went with another solution.,Low Intent
+hey do you guys have a compliance page i can check.,Inquiry
+send the msa for legal review asap...,High Intent
+hey extremely slow loading times in the eu region.,Complaint
+My boss told me to look at this.,Inquiry
+update: where do i wire the funds rn,High Intent
+hey checking with it for security clearance asap,Medium Intent
+so do you guys have a compliance page i can check.,Inquiry
+"hi, how long is the implementation timeline usually thanks",Inquiry
+We use Excel.,Low Intent
+"hello, not a priority right now please",Low Intent
+fyi: please remove me from your list...,Low Intent
+"hi, waiting for budget approval rn",Medium Intent
+fyi: let's touch base in a few weeks!,Medium Intent
+so we're interested but timing is bad rn,Medium Intent
+note: what happens when we reach our api limit,Inquiry
+quick question: can we finalize the agreement today rn,High Intent
+fyi: ready to proceed with the purchase.,High Intent
+"hi, waiting for budget approval.",Medium Intent
+update: we went with another solution.,Low Intent
+fyi: need to discuss internally with stakeholders.,Medium Intent
+sync with client: looks decent but we aren't ready yet,Medium Intent
+"hello, do you guys have a compliance page i can check asap",Inquiry
+fyi: billing department messed up my invoice again.,Complaint
+note: how exactly does the machine learning work.,Inquiry
+fyi: why am i getting error 403 on a public endpoint thanks,Complaint
+note: can i set granular permissions for different roles,Inquiry
+update: send over the order form rn,High Intent
+note: what languages does the platform support...,Inquiry
+hey is there a limit to how many users we can add...,Inquiry
+"hi, what languages does the platform support!",Inquiry
+note: we are comparing you with a few others!,Medium Intent
+"hi, wrong person, try someone else rn",Low Intent
+"spoke with VP, they are evaluating 3 vendors including us",Medium Intent
+waiting for budget approval please,Medium Intent
+"hi, send over the order form please",High Intent
+so lost all my work because the auto-save failed asap,Complaint
+update: does this integrate natively with salesforce!,Inquiry
+hey the user interface is incredibly non-intuitive asap,Complaint
+"hi, extremely slow loading times in the eu region thanks",Complaint
+so do you provide a dedicated customer success manager asap,Inquiry
+I guess it's fine.,Medium Intent
+"hello, how long is the implementation timeline usually asap",Inquiry
+unsubscribe immediately please rn,Low Intent
+closed lost: too expensive for our small shop,Low Intent
+"hi, i need to present this to the board first rn",Medium Intent
+"hi, following up next quarter might be better thanks",Medium Intent
+fyi: the user interface is incredibly non-intuitive please,Complaint
+quick question: how long is the implementation timeline usually rn,Inquiry
+fyi: let's kick off the project,High Intent
+so we want to move forward with the enterprise plan please,High Intent
+pre-sales ques: can i set granular permissions for different roles,Inquiry
+so i want a full refund for this month's downtime...,Complaint
+update: the user interface is incredibly non-intuitive,Complaint
+"hi, please remove me from your list rn",Low Intent
+"hey wrong person, try someone else.",Low Intent
+need licenses for my team immediately please,High Intent
+can we finalize the agreement today asap,High Intent
+"hello, we are comparing you with a few others!",Medium Intent
+note: we went with another solution,Low Intent
+fyi: can we export data as a csv or json.,Inquiry
+update: send the msa for legal review asap thanks,High Intent
+fyi: not interested at all!,Low Intent
+update: urgent need to implement this week asap,High Intent
+note: can we export data as a csv or json thanks,Inquiry
+update: ready to proceed with the purchase please,High Intent
+note: don't ever call this number again.,Low Intent
+fyi: looks decent but we aren't ready yet thanks,Medium Intent
+"hello, can you put me on an email cadence for updates? asap",Medium Intent
+"hi, need licenses for my team immediately!",High Intent
+quick question: send the msa for legal review asap please,High Intent
+quick question: extremely slow loading times in the eu region please,Complaint
+so i need to present this to the board first rn,Medium Intent
+update: we went with another solution asap,Low Intent
+quick question: too expensive for our small shop rn,Low Intent
+putting this on pause for a month please,Medium Intent
+sync with client: putting this on pause for a month,Medium Intent
+so your recent update deleted my saved filters,Complaint
+hey not interested at all asap,Low Intent
+so where do i wire the funds,High Intent
+support ticket: extremely slow loading times in the eu region,Complaint
+what languages does the platform support...,Inquiry
+"hello, we are comparing you with a few others asap",Medium Intent
+note: why am i getting error 403 on a public endpoint,Complaint
+"too expensive, unless you can do 50% off?",Medium Intent
+I'm leaving.,Low Intent
+note: your recent update deleted my saved filters asap,Complaint
+"hello, i have been waiting on hold for hours",Complaint
+hey we selected you as our vendor please,High Intent
+fyi: can i set granular permissions for different roles thanks,Inquiry
+verbal commitment secured on the call today,High Intent
+"I don't get how this works, but my boss wants me to buy it",High Intent
+quick question: we selected you as our vendor...,High Intent
+"met at conference, mild interest, add to nurture sequence",Medium Intent
+hey following up next quarter might be better.,Medium Intent
+dashboard keeps crashing when I export,Complaint
+hey need to discuss internally with stakeholders.,Medium Intent
+fyi: let's get started on onboarding thanks,High Intent
+note: unsubscribe immediately please thanks,Low Intent
+quick question: let's kick off the project...,High Intent
+your demo environment kept crashing,Complaint
+system is slow but we still like it,Medium Intent
+are other companies in our industry interested in this?,Inquiry
+"hi, we want to move forward with the enterprise plan please",High Intent
+note: we selected you as our vendor thanks,High Intent
+"hello, waiting for budget approval please",Medium Intent
+"lead called in, need licenses for my team immediately",High Intent
+so the user interface is incredibly non-intuitive.,Complaint
+"lead called in, can we finalize the agreement today",High Intent
+still in the evaluation phase.,Medium Intent
+"lead called in, let's get started on onboarding",High Intent
+I saw your ad.,Low Intent
+customer rejected proposal due to cost,Low Intent
+following up next quarter might be better asap,Medium Intent
+hey i have been waiting on hold for hours asap,Complaint
+update: not interested at all rn,Low Intent
+"hello, billing department messed up my invoice again.",Complaint
+note: we want to move forward with the enterprise plan!,High Intent
+"hello, is it possible to white-label the dashboard please",Inquiry
+your sales rep was extremely rude on the phone,Complaint
+it's exactly what we need but we just signed with a competitor,Low Intent
+so i have been waiting on hold for hours!,Complaint
+"hi, extremely slow loading times in the eu region please",Complaint
+so i need to present this to the board first please,Medium Intent
+note: is it possible to white-label the dashboard rn,Inquiry
+update: what happens when we reach our api limit...,Inquiry
+update: your recent update deleted my saved filters,Complaint
+quick question: need some time to think it over asap,Medium Intent
+pricing on the website is completely wrong and confusing,Complaint
+the user interface is incredibly non-intuitive...,Complaint
+Is there a way to do the thing with the stuff?,Inquiry
+"hi, how exactly does the machine learning work please",Inquiry
+quick question: why am i getting error 403 on a public endpoint please,Complaint
+"maybe later, not convinced",Medium Intent
+support ignored my ticket for 3 days,Complaint
+"hi, send over the order form",High Intent
+"hello, let's kick off the project asap",High Intent
+client mentioned interest but no budget currently,Medium Intent
+note: extremely slow loading times in the eu region rn,Complaint
+so we're interested but timing is bad.,Medium Intent
+"hi, the documentation is severely out of date and useless",Complaint
+so we don't have the budget for this,Low Intent
+update: checking with it for security clearance...,Medium Intent
+quick question: do you guys have a compliance page i can check asap,Inquiry
+quick question: is there a limit to how many users we can add!,Inquiry
+quick question: mobile application crashes every time i open it,Complaint
+we want to move forward with the enterprise plan.,High Intent
+client just wants to know if we have a mobile app,Inquiry
+update: do you offer 24/7 technical support.,Inquiry
+"hi, we selected you as our vendor rn",High Intent
+closed lost: we are too small to need this,Low Intent
+so i have been waiting on hold for hours please,Complaint
+"sent contract via docusign, waiting for signature",High Intent
+demo looked cool but we don't have the budget,Low Intent
+hey we selected you as our vendor asap,High Intent
+we need this yesterday but legal is blocking,Medium Intent
+"hi, lost all my work because the auto-save failed asap",Complaint
+hey we don't have the budget for this rn,Low Intent
+update: ready to proceed with the purchase,High Intent
+hey waiting for budget approval asap,Medium Intent
+user reported login issue during demo,Complaint
+"hi, we went with another solution!",Low Intent
+note: looks decent but we aren't ready yet,Medium Intent
+update: putting this on pause for a month asap,Medium Intent
+quick question: what languages does the platform support!,Inquiry
+do you offer 24/7 technical support...,Inquiry
+pre-sales ques: is there a limit to how many users we can add,Inquiry
+so i need to present this to the board first...,Medium Intent
+update: we're interested but timing is bad.,Medium Intent
+hey send the msa for legal review asap asap,High Intent
+quick question: i have been waiting on hold for hours!,Complaint
+hey can we export data as a csv or json thanks,Inquiry
+note: what languages does the platform support please,Inquiry
+Make it work.,Complaint
+quick question: don't ever call this number again!,Low Intent
+pricing seems too high not interested,Low Intent
+"lead called in, ready to proceed with the purchase",High Intent
+fyi: mobile application crashes every time i open it!,Complaint
+when u drop the new update hit me up,Medium Intent
+so checking with it for security clearance,Medium Intent
+waiting on support resolution before making a decision,Medium Intent
+quick question: i have been waiting on hold for hours thanks,Complaint
+"hello, what happens when we reach our api limit please",Inquiry
+fyi: what happens when we reach our api limit rn,Inquiry
+note: don't ever call this number again rn,Low Intent
+can I reset my password?,Inquiry
+"note: wrong person, try someone else...",Low Intent
+"hello, billing department messed up my invoice again please",Complaint
+update: too expensive for our small shop.,Low Intent
+quick question: looks decent but we aren't ready yet rn,Medium Intent
+not ready for a demo yet,Low Intent
+so we don't have the budget for this thanks,Low Intent
+update: don't ever call this number again...,Low Intent
+update: we are comparing you with a few others...,Medium Intent
+update: urgent need to implement this week!,High Intent
+pre-sales ques: how long is the implementation timeline usually,Inquiry
+note: do you guys have a compliance page i can check asap,Inquiry
+support ticket: billing department messed up my invoice again,Complaint
+why am i getting error 403 on a public endpoint,Complaint
+update: we're interested but timing is bad!,Medium Intent
+quick question: billing department messed up my invoice again thanks,Complaint
+so lost all my work because the auto-save failed!,Complaint
+note: ready to sign off on the proposal...,High Intent
+is there a limit to how many users we can add,Inquiry
+update: your sales rep was extremely rude on the phone.,Complaint
+"budget approved for Q3, follow up in August",Medium Intent
+fyi: what happens when we reach our api limit please,Inquiry
+fyi: i have been waiting on hold for hours please,Complaint
+fyi: checking with it for security clearance please,Medium Intent
+"not interested, heard your app has too many bugs",Low Intent
+"hi, we are too small to need this...",Low Intent
+do you guys have a compliance page i can check.,Inquiry
+so ready to proceed with the purchase.,High Intent
+note: let's touch base in a few weeks.,Medium Intent
+fyi: let's get started on onboarding,High Intent
+so please remove me from your list asap,Low Intent
+update: does this integrate natively with salesforce rn,Inquiry
+"hi, your recent update deleted my saved filters please",Complaint
+quick question: unsubscribe immediately please...,Low Intent
+"hi, we build this internally so no need please",Low Intent
+hey ready to sign off on the proposal...,High Intent
+Not sure why I'm getting these emails.,Low Intent
+we don't have the budget for this!,Low Intent
+how to fix login issue?,Inquiry
+what happens when we reach our api limit rn,Inquiry
+note: not interested at all asap,Low Intent
+so waiting for budget approval please,Medium Intent
+fyi: how exactly does the machine learning work,Inquiry
+fyi: send over the order form please,High Intent
+support ticket: your recent update deleted my saved filters,Complaint
+"getting an error 500 on checkout, fix it so I can pay",High Intent
+yo can u share pricing rn,High Intent
+Do better.,Complaint
+"hi, looks decent but we aren't ready yet!",Medium Intent
+so how exactly does the machine learning work...,Inquiry
+Can we talk?,Inquiry
