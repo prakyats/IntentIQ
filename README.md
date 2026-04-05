@@ -235,7 +235,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 👨‍💻 Authors
+## 👨‍💻 Author
 
-LeadIntent AI Team  
-Empowering Sales through Applied Intelligence
+Prakyat Shetty  
+Full-Stack Developer | Applied AI Enthusiast
