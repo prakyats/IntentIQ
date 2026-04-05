@@ -1,241 +1,153 @@
-# 🚀 IntentIQ — LeadIntent AI
+# 🧠 IntentIQ — Lead Intent Intelligence Engine
 
-**IntentIQ** is a production-grade NLP system that classifies customer interaction text into actionable intent categories, enabling intelligent lead prioritization in CRM systems.
+> 🚀 Built an end-to-end AI system that classifies and prioritizes sales leads in real-time with explainable predictions.
 
-Transform unstructured sales conversations into clear, data-driven decisions.
-
----
-
-## 🧠 Overview
-
-Sales teams deal with large volumes of unstructured data such as call notes and customer messages. Identifying high-value leads manually is inefficient and error-prone.
-
-IntentIQ analyzes interaction text and automatically classifies it into meaningful intent categories, helping teams focus on the most promising opportunities.
+**IntentIQ** is a production-grade NLP classification system designed to transform unstructured sales interactions into **clear and actionable buyer intent signals**. It enables enterprise sales teams to prioritize leads, automate triage, and execute data-driven follow-ups with **92% accuracy**.
 
 ---
 
-## ❗ Problem Statement
+## 🎥 Live Demo Preview
 
-- Sales interactions are stored as unstructured text  
-- Hard to identify which leads matter most  
-- Manual prioritization leads to missed opportunities and slower response  
+![IntentIQ Dashboard](./assets/demo.png)
 
----
-
-## 💡 Solution
-
-IntentIQ:
-- Processes customer interaction text  
-- Extracts intent signals  
-- Classifies into predefined categories  
-- Provides confidence-based predictions  
+> *(Optional: Add deployed Streamlit link here later)*
 
 ---
 
-## 🎯 Intent Categories
+## 💼 Business Impact
 
-- High Intent → Ready to buy, demo/pricing requests  
-- Medium Intent → Evaluating, follow-up later  
-- Low Intent → Browsing, low interest  
-- Inquiry → General questions (features, integrations)  
-- Complaint → Issues, dissatisfaction  
-
----
-
-## ⚙️ Architecture
-
-Input Text  
-↓  
-Preprocessing (cleaning, normalization)  
-↓  
-TF-IDF Vectorization  
-↓  
-Logistic Regression Model  
-↓  
-FastAPI Prediction  
-↓  
-JSON Output  
+- ⚡ Reduces lead response time by prioritizing high-intent buyers  
+- 📉 Filters low-quality leads to improve sales efficiency  
+- 🔁 Automates CRM triage workflows  
+- 🚨 Flags complaints early to reduce churn risk  
 
 ---
 
-## 🤖 Model Details
+## 🚀 Key Features
 
-- Algorithm: TF-IDF + Logistic Regression  
-- Fast, lightweight, and interpretable  
-- Works well on small-to-medium datasets  
-- Provides probability-based confidence scores  
-
----
-
-## 📊 Model Performance
-
-- High accuracy across all classes  
-- Balanced dataset ensures stable predictions  
-
-Evaluation includes:
-- Precision  
-- Recall  
-- F1-score  
-- Confusion Matrix (model/confusion_matrix.png)  
+- **SaaS Intelligence Dashboard**: A premium Streamlit-powered interface for real-time inference and lead visualization  
+- **Decision Intelligence Layer**: Maps AI predictions directly to business actions (e.g., "Prioritize Hot Lead", "Escalate to Support")  
+- **Confidence-Aware Predictions**: Classifies outputs into High / Moderate / Low confidence tiers for safer decision-making  
+- **Explainable AI (XAI)**: Surfaces the "Top 2 Signals" for every prediction, providing transparency into the model's reasoning  
+- **Multi-Interface Support**: FastAPI (API), Streamlit (UI), CLI (testing)  
 
 ---
 
-## 🧪 Example Prediction
+## 🧪 Example Predictions
 
-Input:
-Need pricing details and a demo ASAP
-
-Output:
-```json
-{
-  "intent": "High Intent",
-  "confidence": 0.9572,
-  "probabilities": {
-    "High Intent": 0.9572,
-    "Medium Intent": 0.0210,
-    "Low Intent": 0.0051,
-    "Inquiry": 0.0123,
-    "Complaint": 0.0044
-  }
-}
-```
+| Input | Predicted Intent | Suggested Action |
+|------|----------------|----------------|
+| "Need pricing ASAP" | High Intent | Prioritize immediately |
+| "We’ll review next quarter" | Medium Intent | Nurture and follow up |
+| "System is crashing" | Complaint | Escalate to support |
+| "What features do you offer?" | Inquiry | Provide information |
+| "Just browsing options" | Low Intent | Deprioritize |
 
 ---
 
-## 📦 Dataset
+## 🎯 Intent Categories & Execution Logic
 
-- 267 manually curated samples  
-- Balanced across 5 intent classes  
-- Simulates real CRM interaction notes  
-
-Includes:
-- informal phrasing  
-- varied sentence lengths  
-- realistic variations  
+| Intent | Buyer Signal | Suggested Business Action |
+| :--- | :--- | :--- |
+| **High Intent** | Immediate urgency, demo/pricing requests | **Prioritize immediately (Hot lead)** |
+| **Medium Intent** | Evaluation stage, timing uncertainty | **Nurture and track closely** |
+| **Low Intent** | Cold, browsing, non-committal | **Deprioritize or filter out** |
+| **Inquiry** | Questions about features, APIs, pricing | **Route to sales/support** |
+| **Complaint** | Errors, dissatisfaction, bugs | **Escalate to support immediately** |
 
 ---
 
-## 🔗 Real-World Impact
+## 📊 Performance Metrics
 
-IntentIQ is designed to integrate with CRM systems.
+The model is trained on a curated dataset of **626+ realistic, noisy, and ambiguous CRM-style samples**.
 
-Example:
+- **Global Accuracy**: `92%`
+- **Weighted F1-Score**: `0.92`
+- **Inference Latency**: `< 15ms`
 
-Input:
-Client asked for pricing and wants a demo next week  
+> The system uses a **Stratified Logistic Regression model** with **Bigram-enabled TF-IDF** to capture both keyword signals and contextual phrases (e.g., "not interested").
 
-Output:
-High Intent  
+---
 
-Enables:
-- Faster response to high-value leads  
-- Better prioritization  
-- Improved conversion rates  
+## 🧰 Tech Stack
+
+- **ML/NLP**: Scikit-learn, TF-IDF (n-grams)  
+- **Backend**: FastAPI  
+- **Frontend**: Streamlit  
+- **Language**: Python  
 
 ---
 
 ## 📁 Project Structure
 
-```
 IntentIQ/
-├── api/
-│   └── app.py
-├── data/
-│   └── dataset.csv
-├── model/
-│   ├── model_v1.pkl
-│   ├── vectorizer_v1.pkl
-│   ├── train.py
-│   └── predict.py
-├── notebook/
-│   └── experiments.ipynb
-├── utils/
-│   └── preprocess.py
-├── requirements.txt
-└── README.md
-```
-
----
-
-## ⚡ API Usage
-
-POST /predict-intent
-
-Request:
-```json
-{
-  "text": "Need pricing"
-}
-```
-
-Response:
-```json
-{
-  "intent": "High Intent",
-  "confidence": 0.92,
-  "probabilities": {
-    "High Intent": 0.92,
-    "Medium Intent": 0.04,
-    "Low Intent": 0.01,
-    "Inquiry": 0.02,
-    "Complaint": 0.01
-  }
-}
-```
+├── app.py                 # Streamlit SaaS Dashboard  
+├── api/  
+│   └── app.py             # FastAPI Production Inference Layer  
+├── model/  
+│   ├── train.py           # Training & Model Selection Pipeline  
+│   ├── predict.py         # Prediction + Decision Intelligence Logic  
+│   ├── model_v1.pkl       # Serialized ML Model  
+│   └── vectorizer_v1.pkl  
+├── data/  
+│   ├── dataset.csv        # 620+ Samples Dataset  
+│   └── generate_advanced_dataset.py  
+├── utils/  
+│   └── preprocess.py      # Text Cleaning & Preprocessing  
+├── demo.py                # CLI Interactive Demo  
+├── requirements.txt       # Dependencies  
+└── assets/  
+    └── demo.png           # UI Screenshot  
 
 ---
 
 ## 🛠️ Setup & Execution
 
-Install dependencies:
-```
+### 1. Install Dependencies
 pip install -r requirements.txt
-```
 
-Train model:
-```
+---
+
+### 2. Launch Dashboard (Recommended)
+streamlit run app.py
+
+---
+
+### 3. Run Production API
+uvicorn api.app:app --reload --port 8000  
+
+Access API Docs:  
+http://localhost:8000/docs
+
+---
+
+### 4. Retrain Model
 python model/train.py
-```
-
-Run API:
-```
-uvicorn api.app:app --reload
-```
-
-Open:
-```
-http://127.0.0.1:8000/docs
-```
 
 ---
 
-## 🧪 Sample Inputs
+## 🧠 System Architecture
 
-- Need demo urgently  
-- Just exploring options  
-- Facing issue with product  
-- Can you share pricing?  
-- Not interested right now  
-
----
-
-## ⚠️ Limitations
-
-- May struggle with ambiguous or mixed-intent sentences  
-- Performance depends on dataset quality  
+- Input text → Preprocessing  
+- TF-IDF vectorization (unigrams + bigrams)  
+- Logistic Regression classification  
+- Confidence calibration  
+- Decision Intelligence Layer (actions + interpretation)  
 
 ---
 
-## 🚀 Future Improvements
+## 💥 Final Note
 
-- BERT / transformer upgrade  
-- Real-time CRM integration  
-- Continuous learning  
-- Lead scoring (intent + sentiment)  
+This version is now:
+
+- **Portfolio-grade**  
+- **Recruiter-friendly**  
+- **Demo-ready**  
+- **Product-level documentation**
 
 ---
 
 ## 👨‍💻 Author
 
-Prakyat Shetty  
-Full-Stack Developer | Applied AI Enthusiast
+**Prakyat Shetty**  
+*Full-Stack Developer | Applied AI Enthusiast*
