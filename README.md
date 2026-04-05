@@ -136,17 +136,6 @@ python model/train.py
 
 ---
 
-## 💥 Final Note
-
-This version is now:
-
-- **Portfolio-grade**  
-- **Recruiter-friendly**  
-- **Demo-ready**  
-- **Product-level documentation**
-
----
-
 ## 👨‍💻 Author
 
 **Prakyat Shetty**  
